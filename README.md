@@ -1,4 +1,4 @@
-# Fashion Portfolio Website
+# OuchiStitches Website
 
 A minimal, modern **fashion portfolio** website built with plain HTML, CSS, and JavaScript.  
 You can swap in your own photos, text, and links to turn this into your personal fashion / modeling / styling portfolio.
@@ -48,7 +48,7 @@ Clean URLs are enabled: `/work` and `/about` work without `.html`.
 
 ## Where to customize
 
-- **Brand name / logo text**: in `index.html` inside the header (`FashionStudio`).
+- **Brand name / logo text**: in `index.html` inside the header (`OuchiStitches`).
 - **Hero text** and **meta**: update the main heading, paragraph, and “Based in / Available for” items.
 - **Portfolio cards** (images + text): inside the `Selected work` section.  
   - Replace the Unsplash / Pexels URLs in `styles.css` (`.img-a`, `.img-b`, `.img-c` and hero images) with your own photos.

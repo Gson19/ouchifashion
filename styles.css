@@ -342,6 +342,14 @@ body.theme-light .theme-toggle {
   align-items: center;
 }
 
+.hero-copy .tagline {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
 .hero-copy .hero-text {
   margin-top: 1.1rem;
   color: var(--muted);
