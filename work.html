@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Work · Fashion Portfolio</title>
+    <meta
+      name="description"
+      content="Selected modeling, styling, and design work — editorial, street, and campaign looks."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">Fashion<span>Studio</span></a>
+
+        <div class="header-right">
+          <button class="theme-toggle" aria-label="Toggle light and dark mode">
+            <span class="theme-icon">●</span>
+            <span class="theme-label">Dark</span>
+          </button>
+
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav">
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="index.html#journal">Journal</a>
+            <a href="index.html#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container section-header">
+          <div>
+            <p class="eyebrow">Portfolio</p>
+            <h2>Selected work</h2>
+          </div>
+          <p class="section-text">
+            Modeling, styling, and design across editorial shoots, street-style stories, and
+            brand campaigns. Replace these with your own projects and credits.
+          </p>
+        </div>
+
+        <div class="container grid portfolio-grid">
+          <article class="card">
+            <div class="card-img img-a"></div>
+            <div class="card-body">
+              <p class="chip">Editorial · Modeling</p>
+              <h3>Midnight Contrast</h3>
+              <p>
+                Studio editorial focused on sharp tailoring, strong poses, and clean
+                silhouettes in monochrome.
+              </p>
+              <p class="card-meta">Role: Model · Styling assist</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img img-b"></div>
+            <div class="card-body">
+              <p class="chip">Street · Styling</p>
+              <h3>Soft City Lines</h3>
+              <p>
+                Layered outerwear and relaxed shapes styled to move with the city — shot on
+                location in natural light.
+              </p>
+              <p class="card-meta">Role: Stylist · Model</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img img-c"></div>
+            <div class="card-body">
+              <p class="chip">Campaign · Design</p>
+              <h3>Warm Tones, Sharp Edges</h3>
+              <p>
+                A capsule of original pieces designed around warm neutrals and strong
+                structure, styled for a brand campaign.
+              </p>
+              <p class="card-meta">Role: Designer · Styling direction</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> FashionStudio. All rights reserved.</p>
+        <p class="footer-note">Model · Stylist · Designer.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+

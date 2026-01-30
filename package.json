@@ -1,0 +1,12 @@
+{
+  "name": "fashion-portfolio-site",
+  "version": "1.0.0",
+  "description": "A simple, static fashion portfolio website built with HTML, CSS, and JavaScript.",
+  "scripts": {
+    "dev": "live-server ."
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
+
