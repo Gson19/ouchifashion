@@ -425,7 +425,8 @@ body.theme-light .theme-toggle {
   
 
 
-.hero-img.secondary-img {       
+.hero-img.secondary-img {  
+  inset: auto;
   width: 45%;
   height: 320px;
   right: -8%;
