@@ -252,7 +252,21 @@
             <button type="submit" class="btn primary full-width">
               Send message
             </button>
-          </form>          
+          </form>    
+          <script>
+            document.getElementById("contact-form").addEventListener("submit", function(event) {
+              event.preventDefault(); // Prevent page reload
+            
+              emailjs.sendForm("service_7rwxj9e", "template_f79r8m3", this)
+                .then(() => {
+                  alert("✅ Message sent successfully!");
+                  this.reset(); // Clear form after sending
+                }, (error) => {
+                  alert("❌ Failed to send message: " + JSON.stringify(error));
+                });
+            });
+            </script>
+                  
         </div>
       </section>
     </main>
@@ -265,6 +279,16 @@
     </footer>
 
     <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "kVX1neZaIFHqdqeK4",
+      });
+   })();
+</script>
   </body>
   </html>
 
