@@ -406,8 +406,7 @@ body.theme-light .theme-toggle {
 }
 
 .hero-img.primary-img {
-  width: 100%;
-  height: auto;
+  height: 100%;
   background-image: linear-gradient(
       145deg,
       rgba(0, 0, 0, 0.45),
