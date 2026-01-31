@@ -411,16 +411,15 @@ body.theme-light .theme-toggle {
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.7)
     ),
-    url("https://drive.google.com/uc?export=view&id=1xGezEM5OA6DflgEfSGUiCkc7gEFYB_5v");
-}
+    url("https://imgur.com/MifwAjp");
+  }
 
 .hero-img.secondary-img {
-  inset: auto;        /* override the full-size behavior */
+  inset: auto;       
   width: 45%;
   height: 320px;
   right: -8%;
   bottom: -6%;
-  background-color: red;
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.14);
 
@@ -429,7 +428,7 @@ body.theme-light .theme-toggle {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.82)
     ),
-    url("https://drive.google.com/uc?export=view&id=1v40K4e5bdjRS3bYu3KG2URRs9QvWYaDa");
+    url("https://imgur.com/EwrU89Z");
 
   background-size: cover;
   background-position: center;
