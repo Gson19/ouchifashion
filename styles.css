@@ -394,6 +394,7 @@ body.theme-light .theme-toggle {
 .hero-visual {
   position: relative;
   min-height: 100vh;
+  min-height: 100svh;
 }
 
 .hero-img {
