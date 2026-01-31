@@ -416,7 +416,7 @@ body.theme-light .theme-toggle {
     ),
     url("https://i.imgur.com/MifwAjp.jpeg");
   }
-  
+
   .hero-img.primary-img img {
     width: 100%;
     height: auto;
@@ -425,13 +425,12 @@ body.theme-light .theme-toggle {
   
 
 
-.hero-img.secondary-img {
-  inset: auto;       
+.hero-img.secondary-img {       
   width: 45%;
   height: 320px;
   right: -8%;
   bottom: -6%;
-  border-radius: 22px;
+  border-radius: 32px;
   border: 1px solid rgba(255, 255, 255, 0.14);
 
   background-image: linear-gradient(
