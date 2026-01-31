@@ -393,7 +393,7 @@ body.theme-light .theme-toggle {
 
 .hero-visual {
   position: relative;
-  min-height: 600px;
+  min-height: 100vh;
 }
 
 .hero-img {
