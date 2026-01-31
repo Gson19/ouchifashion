@@ -416,6 +416,14 @@ body.theme-light .theme-toggle {
     ),
     url("https://i.imgur.com/MifwAjp.jpeg");
   }
+  
+  .hero-img.primary-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
+  }
+  
+
 
 .hero-img.secondary-img {
   inset: auto;       
