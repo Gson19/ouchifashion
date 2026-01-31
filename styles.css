@@ -398,7 +398,7 @@ body.theme-light .theme-toggle {
 
 .hero-img {
   position: absolute;
-  inset: 0;
+  inset: auto;
   border-radius: 32px;
   background-size: cover;
   background-position: center;
