@@ -56,15 +56,3 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.remove("nav-open");
     });
   });
-
-  const form = document.querySelector(".contact-form");
-  if (form) {
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      alert(
-        "This form is a visual placeholder. To make it send messages, you’ll need to connect it to an email service or backend later."
-      );
-    });
-  }
-});
-
