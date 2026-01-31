@@ -430,7 +430,7 @@ body.theme-light .theme-toggle {
     ),
     url("https://i.imgur.com/EwrU89Z.jpeg");
 
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
