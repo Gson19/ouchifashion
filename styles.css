@@ -420,6 +420,7 @@ body.theme-light .theme-toggle {
   height: 320px;
   right: -8%;
   bottom: -6%;
+  background-color: red;
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.14);
 
