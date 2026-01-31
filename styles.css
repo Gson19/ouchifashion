@@ -398,7 +398,7 @@ body.theme-light .theme-toggle {
 
 .hero-img {
   position: absolute;
-  inset: auto;
+  inset: 0;
   border-radius: 32px;
   background-size: cover;
   background-position: center;
@@ -415,6 +415,7 @@ body.theme-light .theme-toggle {
 }
 
 .hero-img.secondary-img {
+  inset: auto;
   width: 52%;
   height: 56%;
   right: -12%;
