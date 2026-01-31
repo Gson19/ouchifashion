@@ -406,45 +406,32 @@ body.theme-light .theme-toggle {
 }
 
 .hero-img.primary-img {
-  width: 100%; 
-  height: auto; 
-  border-radius: 32px;
   background-image: linear-gradient(
       145deg,
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.7)
     ),
-    url("https://i.imgur.com/MifwAjp.jpeg");
-  }
+    url("https://images.pexels.com/photos/6311579/pexels-photo-6311579.jpeg?auto=compress&cs=tinysrgb&w=1200");
+}
 
-  .hero-img.primary-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 32px;
-  }
-  
-
-
-.hero-img.secondary-img {  
-  inset: auto;
-  width: 45%;
-  height: 320px;
-  right: -8%;
-  bottom: -6%;
-  border-radius: 32px;
+.hero-img.secondary-img {
+  width: 52%;
+  height: 56%;
+  right: -12%;
+  bottom: -7%;
+  left: auto;
+  top: auto;
+  border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.14);
-
   background-image: linear-gradient(
       160deg,
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.82)
     ),
-    url("https://i.imgur.com/EwrU89Z.jpeg");
-
+    url("https://images.pexels.com/photos/6311587/pexels-photo-6311587.jpeg?auto=compress&cs=tinysrgb&w=800");
   background-size: cover;
   background-position: center;
 }
-
 
 .hero-tag {
   position: absolute;
