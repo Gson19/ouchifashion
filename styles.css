@@ -406,6 +406,8 @@ body.theme-light .theme-toggle {
 }
 
 .hero-img.primary-img {
+  width: 100%;
+  height: auto;
   background-image: linear-gradient(
       145deg,
       rgba(0, 0, 0, 0.45),
@@ -415,8 +417,8 @@ body.theme-light .theme-toggle {
 }
 
 .hero-img.secondary-img {
-  width: 52%;
-  height: 56%;
+  width: 100%;
+  height: auto;
   right: -12%;
   bottom: -7%;
   left: auto;
