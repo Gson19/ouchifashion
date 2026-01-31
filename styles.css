@@ -411,7 +411,7 @@ body.theme-light .theme-toggle {
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.7)
     ),
-    url("https://images.pexels.com/photos/6311579/pexels-photo-6311579.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    url("https://i.imgur.com/MifwAjp.jpeg");
 }
 
 .hero-img.secondary-img {
@@ -428,7 +428,7 @@ body.theme-light .theme-toggle {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.82)
     ),
-    url("https://images.pexels.com/photos/6311587/pexels-photo-6311587.jpeg?auto=compress&cs=tinysrgb&w=800");
+    url("https://i.imgur.com/EwrU89Z.jpeg");
   background-size: cover;
   background-position: center;
 }
