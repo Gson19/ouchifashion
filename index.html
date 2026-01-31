@@ -231,28 +231,28 @@
               <li><span>Instagram</span><a href="#">@yourhandle</a></li>
             </ul>
           </div>
-
           <form action="https://formspree.io/f/xdazvddk" method="POST" class="contact-form">
             <div class="field">
               <label for="name">Name</label>
-              <input id="name" type="text" placeholder="Client or agency name" />
+              <input id="name" type="text" name="name" placeholder="Client or agency name" required />
             </div>
             <div class="field">
               <label for="email">Email</label>
-              <input id="email" type="email" placeholder="you@example.com" />
+              <input id="email" type="email" name="email" placeholder="you@example.com" required />
             </div>
             <div class="field">
               <label for="details">Project details</label>
               <textarea
                 id="details"
+                name="details"
                 rows="4"
                 placeholder="Share dates, location, and what you’re looking for."
               ></textarea>
             </div>
-            <button type="submit" class="btn primary full-width"><a href="mailto:divinegson@gmail.com"></a>
+            <button type="submit" class="btn primary full-width">
               Send message
             </button>
-          </form>
+          </form>          
         </div>
       </section>
     </main>
