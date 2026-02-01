@@ -57,3 +57,22 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.remove("nav-open");
     });
   });
+
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      console.log("Theme toggle clicked!");
+      const isCurrentlyLight = document.body.classList.contains("theme-light");
+      const newMode = isCurrentlyLight ? "dark" : "light";
+      console.log("Switching to:", newMode);
+      window.localStorage.setItem("theme", newMode);
+      applyTheme(newMode);
+    });
+  }
+  
+  const applyTheme = (mode) => {
+    const isLight = mode === "light";
+    document.body.classList.toggle("theme-light", isLight);
+    console.log("Applied theme:", mode, "Class present?", document.body.classList.contains("theme-light"));
+    if (themeLabel) themeLabel.textContent = isLight ? "Light" : "Dark";
+    if (themeIcon) themeIcon.textContent = isLight ? "○" : "●";
+  };
