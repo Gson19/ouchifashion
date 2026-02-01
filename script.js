@@ -36,12 +36,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (themeToggle) {
     themeToggle.addEventListener("click", () => {
-      const isLight = document.body.classList.toggle("theme-light");
-      const mode = isLight ? "light" : "dark";
-      window.localStorage.setItem("theme", mode);
-      applyTheme(mode);
+      const isCurrentlyLight = document.body.classList.contains("theme-light");
+      const newMode = isCurrentlyLight ? "dark" : "light";
+      window.localStorage.setItem("theme", newMode);
+      applyTheme(newMode);
     });
   }
+  
 
   navLinks.forEach((link) => {
     link.addEventListener("click", (e) => {
