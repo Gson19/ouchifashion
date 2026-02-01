@@ -342,6 +342,14 @@ body.theme-light .theme-toggle {
   align-items: center;
 }
 
+.hero-copy .tagline {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
 .hero-copy .hero-text {
   margin-top: 1.1rem;
   color: var(--muted);
@@ -385,7 +393,8 @@ body.theme-light .theme-toggle {
 
 .hero-visual {
   position: relative;
-  min-height: 600px;
+  min-height: 100vh;
+  min-height: 100svh;
 }
 
 .hero-img {
@@ -484,15 +493,15 @@ body.theme-light .card {
 }
 
 .img-a {
-  background-image: url("https://i.imgur.com/bUKlPuo.jpeg");
+  background-image: url("https://images.pexels.com/photos/6311663/pexels-photo-6311663.jpeg?auto=compress&cs=tinysrgb&w=1200");
 }
 
 .img-b {
-  background-image: url("https://i.imgur.com/11OSlbV.jpeg");
+  background-image: url("https://images.pexels.com/photos/3178767/pexels-photo-3178767.jpeg?auto=compress&cs=tinysrgb&w=1200");
 }
 
 .img-c {
-  background-image: url("https://i.imgur.com/OiRvp4Y.jpeg");
+  background-image: url("https://images.pexels.com/photos/6311570/pexels-photo-6311570.jpeg?auto=compress&cs=tinysrgb&w=1200");
 }
 
 .card-body {
