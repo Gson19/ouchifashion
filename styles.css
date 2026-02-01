@@ -37,13 +37,11 @@ body {
   padding: 0;
 }
 
-body {
-  min-height: 100vh;
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
-  background: radial-gradient(circle at top, #151829 0, #050508 55%);
-  color: var(--text);
-  -webkit-font-smoothing: antialiased;
+body { 
+  min-height: 100vh; 
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
+  background: radial-gradient(circle at top, var(--bg) 0, var(--bg-alt) 55%); 
+  color: var(--text); -webkit-font-smoothing: antialiased; 
 }
 
 body.theme-light {
@@ -74,8 +72,8 @@ button {
   padding: 5rem 0 4.25rem;
 }
 
-.section-alt {
-  background: radial-gradient(circle at top, #171b2b 0, #06070c 60%);
+.section-alt { 
+  background: radial-gradient(circle at top, var(--surface) 0, var(--bg-alt) 60%); 
 }
 
 body.theme-light .section-alt {
@@ -210,18 +208,13 @@ h3 {
   width: 100%;
 }
 
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  backdrop-filter: blur(16px);
-  background: linear-gradient(
-    to bottom,
-    rgba(4, 6, 12, 0.96),
-    rgba(4, 6, 12, 0.88),
-    transparent
-  );
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+.site-header { 
+  position: sticky; 
+  top: 0; 
+  z-index: 20; 
+  backdrop-filter: blur(16px); 
+  background: linear-gradient( to bottom, var(--surface), var(--bg-alt), transparent ); 
+  border-bottom: 1px solid var(--border-subtle); 
 }
 
 body.theme-light .site-header {
@@ -447,14 +440,14 @@ body.theme-light .theme-toggle {
   box-shadow: 0 0 0 4px rgba(249, 212, 140, 0.35);
 }
 
-.card {
-  border-radius: var(--radius-lg);
-  background: radial-gradient(circle at top, #232638 0, #0b0d14 55%);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+.card { 
+  border-radius: var(--radius-lg); 
+  background: radial-gradient(circle at top, var(--surface) 0, var(--bg-alt) 55%); 
+  border: 1px solid var(--border-subtle); 
+  overflow: hidden; 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100%; 
 }
 
 body.theme-light .card {
@@ -520,11 +513,11 @@ body.theme-light .card {
   color: var(--muted);
 }
 
-.article-card {
-  border-radius: var(--radius-md);
-  background: rgba(10, 11, 18, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 1.2rem 1.25rem 1.3rem;
+.article-card { 
+  border-radius: var(--radius-md); 
+  background: var(--surface); 
+  border: 1px solid var(--border-subtle); 
+  padding: 1.2rem 1.25rem 1.3rem; 
 }
 
 body.theme-light .article-card {
@@ -580,12 +573,12 @@ body.theme-light .article-card {
   color: var(--accent);
 }
 
-.contact-form {
-  background: radial-gradient(circle at top left, #232635 0, #050609 60%);
-  border-radius: var(--radius-lg);
-  padding: 1.4rem 1.4rem 1.45rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.65);
+.contact-form { 
+  background: radial-gradient(circle at top left, var(--surface) 0, var(--bg-alt) 60%); 
+  border-radius: var(--radius-lg); 
+  padding: 1.4rem; 
+  border: 1px solid var(--border-subtle); 
+  box-shadow: var(--shadow-soft); 
 }
 
 body.theme-light .contact-form {
@@ -649,10 +642,10 @@ body.theme-light .field textarea:focus {
   background: #ffffff;
 }
 
-.site-footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  padding: 1.4rem 0 1.5rem;
-  background: radial-gradient(circle at top, #151829 0, #050508 50%);
+.site-footer { 
+  border-top: 1px solid var(--border-subtle); 
+  padding: 1.4rem 0 1.5rem; 
+  background: radial-gradient(circle at top, var(--surface) 0, var(--bg-alt) 50%); 
 }
 
 body.theme-light .site-footer {
