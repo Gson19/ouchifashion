@@ -42,7 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
       applyTheme(newMode);
     });
   }
-  
 
   navLinks.forEach((link) => {
     link.addEventListener("click", (e) => {
