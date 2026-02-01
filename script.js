@@ -11,13 +11,18 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const applyTheme = (mode) => {
+    console.log("applyTheme called with mode:", mode);
     const isLight = mode === "light";
+    console.log("isLight:", isLight);
     document.body.classList.toggle("theme-light", isLight);
+    console.log("After toggle, body classes:", document.body.className);
     if (themeLabel) {
       themeLabel.textContent = isLight ? "Light" : "Dark";
+      console.log("Theme label updated to:", themeLabel.textContent);
     }
     if (themeIcon) {
       themeIcon.textContent = isLight ? "○" : "●";
+      console.log("Theme icon updated to:", themeIcon.textContent);
     }
   };
 
@@ -36,10 +41,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (themeToggle) {
     themeToggle.addEventListener("click", () => {
+      console.log("Theme toggle clicked");
       const isCurrentlyLight = document.body.classList.contains("theme-light");
+      console.log("Currently light:", isCurrentlyLight);
       const newMode = isCurrentlyLight ? "dark" : "light";
+      console.log("New mode:", newMode);
       window.localStorage.setItem("theme", newMode);
       applyTheme(newMode);
+      console.log("Theme applied, body classes:", document.body.className);
     });
   }
 
