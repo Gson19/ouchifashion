@@ -749,6 +749,8 @@ body.theme-light .site-footer {
   .hero-visual {
     min-height: 400px;
     margin-top: 1.5rem;
+    width: 100%;
+    aspect-ratio: 4/3;
   }
 
   .hero-meta {
@@ -766,6 +768,8 @@ body.theme-light .site-footer {
 
   .hero-img {
     border-radius: 20px;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   .hero-img.secondary-img {
