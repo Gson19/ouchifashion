@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const themeLabel = document.querySelector(".theme-label");
   const themeIcon = document.querySelector(".theme-icon");
 
+  console.log("Elements found:");
+  console.log("themeToggle:", themeToggle);
+  console.log("themeLabel:", themeLabel);
+  console.log("themeIcon:", themeIcon);
+
   if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
   }
@@ -40,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (themeToggle) {
+    console.log("Adding event listener to theme toggle");
     themeToggle.addEventListener("click", () => {
       console.log("Theme toggle clicked");
       const isCurrentlyLight = document.body.classList.contains("theme-light");
@@ -50,6 +56,8 @@ document.addEventListener("DOMContentLoaded", () => {
       applyTheme(newMode);
       console.log("Theme applied, body classes:", document.body.className);
     });
+  } else {
+    console.log("Theme toggle element not found!");
   }
 
   navLinks.forEach((link) => {
