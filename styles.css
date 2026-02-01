@@ -746,6 +746,11 @@ body.theme-light .site-footer {
     padding-top: 2.1rem;
   }
 
+  .hero-visual {
+    min-height: 400px;
+    margin-top: 1.5rem;
+  }
+
   .hero-meta {
     gap: 1.1rem;
   }
@@ -757,6 +762,17 @@ body.theme-light .site-footer {
 
   .card-img {
     height: 220px;
+  }
+
+  .hero-img {
+    border-radius: 20px;
+  }
+
+  .hero-img.secondary-img {
+    width: 60%;
+    height: 50%;
+    right: -8%;
+    bottom: -5%;
   }
 
   .section {

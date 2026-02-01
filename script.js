@@ -6,28 +6,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const themeLabel = document.querySelector(".theme-label");
   const themeIcon = document.querySelector(".theme-icon");
 
-  console.log("Elements found:");
-  console.log("themeToggle:", themeToggle);
-  console.log("themeLabel:", themeLabel);
-  console.log("themeIcon:", themeIcon);
 
   if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
   }
 
   const applyTheme = (mode) => {
-    console.log("applyTheme called with mode:", mode);
     const isLight = mode === "light";
-    console.log("isLight:", isLight);
     document.body.classList.toggle("theme-light", isLight);
-    console.log("After toggle, body classes:", document.body.className);
     if (themeLabel) {
       themeLabel.textContent = isLight ? "Light" : "Dark";
-      console.log("Theme label updated to:", themeLabel.textContent);
     }
     if (themeIcon) {
       themeIcon.textContent = isLight ? "○" : "●";
-      console.log("Theme icon updated to:", themeIcon.textContent);
     }
   };
 
@@ -45,19 +36,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (themeToggle) {
-    console.log("Adding event listener to theme toggle");
     themeToggle.addEventListener("click", () => {
-      console.log("Theme toggle clicked");
       const isCurrentlyLight = document.body.classList.contains("theme-light");
-      console.log("Currently light:", isCurrentlyLight);
       const newMode = isCurrentlyLight ? "dark" : "light";
-      console.log("New mode:", newMode);
       window.localStorage.setItem("theme", newMode);
       applyTheme(newMode);
-      console.log("Theme applied, body classes:", document.body.className);
     });
-  } else {
-    console.log("Theme toggle element not found!");
   }
 
   navLinks.forEach((link) => {
