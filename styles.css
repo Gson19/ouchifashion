@@ -208,6 +208,24 @@ h3 {
   width: 100%;
 }
 
+.btn.whatsapp {
+  background: #25D366;
+  color: white;
+  border: 1px solid #25D366;
+  box-shadow: 0 18px 40px rgba(37, 211, 102, 0.3);
+}
+
+.btn.whatsapp:hover {
+  background: #128C7E;
+  border-color: #128C7E;
+  transform: translateY(-1px);
+  box-shadow: 0 22px 55px rgba(37, 211, 102, 0.4);
+}
+
+.btn.whatsapp svg {
+  margin-right: 0.35rem;
+}
+
 .site-header { 
   position: sticky; 
   top: 0; 
