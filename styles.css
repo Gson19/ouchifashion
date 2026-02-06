@@ -436,13 +436,13 @@ body.theme-light .theme-toggle {
 }
 
 .hero-img.secondary-img {
-  width: 52%;
-  height: 56%;
-  right: -12%;
-  bottom: -7%;
+  width: 60%;
+  height: 50%;
+  right: -5%;
+  bottom: -3%;
   left: auto;
   top: auto;
-  border-radius: 22px;
+  border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   background-image: linear-gradient(
       160deg,
@@ -816,7 +816,7 @@ body.theme-light .site-footer {
   }
 
   .hero-img.primary-img {
-    position: relative !important;
+    position: absolute !important;
     inset: auto !important;
   }
 
