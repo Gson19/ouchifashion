@@ -806,13 +806,23 @@ body.theme-light .site-footer {
     border-radius: 20px;
     width: 100% !important;
     height: 100% !important;
+    position: relative !important;
+    inset: auto !important;
   }
 
   .hero-img.secondary-img {
-    width: 60%;
-    height: 50%;
-    right: -8%;
-    bottom: -5%;
+    width: 70%;
+    height: 60%;
+    right: -5%;
+    bottom: -3%;
+    position: absolute !important;
+    z-index: 2;
+  }
+
+  .hero-img.primary-img {
+    position: relative !important;
+    inset: auto !important;
+    z-index: 1;
   }
 
   .section {
