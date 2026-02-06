@@ -804,20 +804,24 @@ body.theme-light .site-footer {
 
   .hero-img {
     border-radius: 20px;
+  }
+
+  .hero-img.primary-img {
+    position: absolute !important;
+    inset: 0 !important;
     width: 100% !important;
     height: 100% !important;
   }
 
   .hero-img.secondary-img {
-    width: 60%;
-    height: 50%;
-    right: -5%;
-    bottom: -3%;
-  }
-
-  .hero-img.primary-img {
+    width: 40%;
+    height: 35%;
+    right: 5%;
+    bottom: 5%;
+    left: auto !important;
+    top: auto !important;
     position: absolute !important;
-    inset: auto !important;
+    z-index: 2;
   }
 
   .section {
