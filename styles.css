@@ -111,9 +111,28 @@ body.theme-light .section-alt {
 .about-grid,
 .contact-grid {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
   gap: 3.25rem;
   align-items: flex-start;
+}
+
+.about-image {
+  width: 100%;
+}
+
+.about-image .card {
+  height: 100%;
+}
+
+.about-image .card-img {
+  height: 400px;
+  border-radius: var(--radius-lg);
+}
+
+.img-abt {
+  background-image: url("https://i.imgur.com/your-image-code.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .about-copy p {
@@ -801,6 +820,15 @@ body.theme-light .site-footer {
   .portfolio-grid,
   .journal-grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-grid,
+  .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-image .card-img {
+    height: 300px;
   }
 
   .card-img {
