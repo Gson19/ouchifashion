@@ -873,3 +873,12 @@ body.theme-light .site-footer {
     align-items: flex-start;
   }
 }
+
+ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
