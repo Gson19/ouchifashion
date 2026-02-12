@@ -524,6 +524,10 @@ body.theme-light .card {
   background-image: url("https://i.imgur.com/OiRvp4Y.jpeg");
 }
 
+.img-abt {
+  background-image: url("https://i.imgur.com/LWpYsD4.jpeg");
+}
+
 .card-body {
   padding: 1.1rem 1.15rem 1.15rem;
 }
